@@ -53,7 +53,6 @@ const Layout = ({ children, title }) => {
       >
         <section>
           <aside>
-            <p />
             <StLink to="/">
             <StaticImage
               src="../images/yomuonesquare.png"
