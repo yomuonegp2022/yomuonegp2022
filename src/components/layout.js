@@ -52,7 +52,7 @@ const Layout = ({ children, title }) => {
         }}
       >
         <section>
-          <aside class={title === `ホーム` ? `` : `hide`}>
+          <aside>
             <p />
             <StLink to="/">
             <StaticImage
@@ -65,7 +65,7 @@ const Layout = ({ children, title }) => {
             </StLink>
             <h4>合成音声漫才大会</h4>
             <h1 style={{ fontSize: `150%` }}>読ム-１グランプリ</h1>
-            <table border="2" bordercolor="#444444">
+            <table border="2" bordercolor="#444444" class={title === `ホーム` ? `` : `hide`}>
               <tbody>
                 <tr><th><StLink to="/about">エントリー<br />2022/01/01 - 2022/03/10</StLink></th></tr>
                 <tr><th>開催<br />2022/04/01</th></tr>
@@ -73,6 +73,19 @@ const Layout = ({ children, title }) => {
                 <tr><th>結果発表<br />2022/04/16</th></tr>
               </tbody>
             </table>
+            <h2>
+              <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
+                <i class="fas fa-tv"></i>
+              </a>
+              　　
+              <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
+                <i class="fab fa-twitter"></i>
+              </a>
+              　　
+              <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </h2>
           </aside>
           <main>
             <article style={{
@@ -89,21 +102,6 @@ const Layout = ({ children, title }) => {
             </article>
           </main>
           <div style={{width: `100%`}} />
-          <aside>
-            <h2>
-              <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
-                <i class="fas fa-tv"></i>
-              </a>
-              　　
-              <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
-                <i class="fab fa-twitter"></i>
-              </a>
-              　　
-              <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
-                <i class="fas fa-envelope"></i>
-              </a>
-            </h2>
-          </aside>
         </section>
         <footer
           style={{
