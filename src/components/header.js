@@ -1,33 +1,56 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import styled from "styled-components"
+import {
+  navLinks,
+  navLinkItem,
+  navLinkText
+} from './layout.module.css'
+
+const StLink = styled(Link)`
+  color: white;
+  activecolor: #800000;
+  text-decoration: none;
+`
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+  <header>
+    <h3 class="title">
+      <StLink to="/">
+        {siteTitle}
+      </StLink>
+    </h3>
+    <h2 class="sp-title">
+      <StLink to="/">
+        読ム-１GP 2022
+      </StLink>
+    </h2>
+    <p />
+    <nav class="title">
+      <ul className={navLinks}>
+        <li className={navLinkItem}>
+          <Link to="/" className={navLinkText}>
+            ホーム
+          </Link>
+        </li>
+        <li className={navLinkItem}>
+          <Link to="/about" className={navLinkText}>
+            概要
+          </Link>
+        </li>
+        <li className={navLinkItem}>
+          <Link to="/rule" className={navLinkText}>
+            ルール
+          </Link>
+        </li>
+        <li className={navLinkItem}>
+          <Link to="/performers" className={navLinkText}>
+            参加者一覧
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </header>
 )
 

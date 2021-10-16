@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 const NotFoundPage = () => (
-  <Layout>
-    <Seo title="404: Not found" />
+  <Layout title="ページが見つかりません">
+    <Seo title="404" />
     <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <p>お探しのページは、移動または削除された可能性があります。</p>
   </Layout>
 )
 
