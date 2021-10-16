@@ -14,7 +14,7 @@ import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
-import Menu from "./Menu"
+import Menu from "./menu"
 
 const StLink = styled(Link)`
   color: white;
