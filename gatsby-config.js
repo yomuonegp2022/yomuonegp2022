@@ -14,13 +14,6 @@ module.exports = {
         path: `${__dirname}/src`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images/performers`,
-      },
-    },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
