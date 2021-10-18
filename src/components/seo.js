@@ -53,6 +53,10 @@ function Seo({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://i.gyazo.com/dffeca0e5e7068df3a30253c03f42dab.png`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },

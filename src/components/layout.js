@@ -55,7 +55,7 @@ const Layout = ({ children, title }) => {
           <aside>
             <StLink to="/">
             <StaticImage
-              src="../images/yomuonesquare.png"
+              src="../images/yomuonecircle.png"
               width={150}
               formats={["auto", "webp", "avif"]}
               alt="読ム-１グランプリ ロゴ"

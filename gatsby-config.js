@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `読ム-１グランプリ2022 特設サイト`,
-    author: `@gatsbyjs`,
+    author: `@Yomu_1GP2022`,
+    description: `合成音声によるルール無用の漫才大会！`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,15 +28,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `2022年度 読ム-１グランプリ`,
+        short_name: `読ム-１GP 2021`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#800000`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/yomuonecircle.png`, // This path is relative to the root of the site.
       },
       // resolve: `gatsby-plugin-canonical-urls`,
       // options: {
