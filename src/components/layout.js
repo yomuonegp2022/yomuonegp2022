@@ -62,8 +62,8 @@ const Layout = ({ children, title }) => {
               style={{ marginBottom: `1.45rem`, borderRadius: `50%`, }}
             />
             </StLink>
-            <h4>合成音声漫才大会</h4>
-            <h1 style={{ fontSize: `150%` }}>読ム-１グランプリ</h1>
+            <h4 style={{marginBottom: 0}}>合成音声漫才大会</h4>
+            <h1 style={{ fontSize: `150%`, marginBottom: `1rem`}}>読ム-１グランプリ</h1>
             <table border="2" bordercolor="#444444" class={title === `ホーム` ? `` : `hide`}>
               <tbody>
                 <tr><th><StLink to="/about">エントリー<br />2022/01/01 - 2022/03/10</StLink></th></tr>
@@ -72,17 +72,17 @@ const Layout = ({ children, title }) => {
                 <tr><th>結果発表<br />2022/04/16</th></tr>
               </tbody>
             </table>
-            <h2>
+            <h2 style={{marginBottom: `2rem`}}>
               <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
-                <i class="fas fa-tv"></i>
+                <i class="fas fa-tv fa-fw"></i>
               </a>
               　　
               <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
-                <i class="fab fa-twitter"></i>
+                <i class="fab fa-twitter fa-fw"></i>
               </a>
               　　
               <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
-                <i class="fas fa-envelope"></i>
+                <i class="fas fa-envelope fa-fw"></i>
               </a>
             </h2>
           </aside>
@@ -92,7 +92,7 @@ const Layout = ({ children, title }) => {
               paddingBottom: `0`,
             }}>
               <h1 style={{
-                paddingBottom: `0.5rem`,
+                paddingTop: `0`,
                 color: `white`
                 }}> {title} </h1>
             </article>
@@ -100,7 +100,6 @@ const Layout = ({ children, title }) => {
               {children}
             </article>
           </main>
-          <div style={{width: `100%`}} />
         </section>
         <footer
           style={{

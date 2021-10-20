@@ -22,27 +22,47 @@ const StLink = styled(Link)`
 
 const IndexPage = () => (
   <Layout title="ホーム">
-    <Seo title="ホーム" />
-    <p>準備中</p>
+    <Seo />
+    <h1>過去大会マイリスト</h1>
+    <p>
+      <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
+        2018年度
+      </a>
+    </p>
+    <p>
+      <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/65165304">
+        2019年度
+      </a>
+    </p>
+    <p>
+      <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/67940877">
+        2020年度
+      </a>
+    </p>
+    <p>
+      <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/70802564">
+        2021年度
+      </a>
+    </p>
     <h1>運営リンク</h1>
     <p>
-      <a class="external" title="niconico" href="https://www.nicovideo.jp/user/121301564">
-        <i class="fas fa-tv"></i> 大会ニコニコアカウント
+      <a class="external" target="_blank" title="niconico" href="https://www.nicovideo.jp/user/121301564">
+        <i class="fas fa-tv fa-fw"></i>大会ニコニコアカウント
       </a>
     </p>
     <p>
-      <a class="external" title="twitter" href="https://twitter.com/Yomu_1GP2022">
-        <i class="fab fa-twitter"></i> 大会ツイッターアカウント
+      <a class="external" target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
+        <i class="fab fa-twitter fa-fw"></i>大会ツイッターアカウント
       </a>
     </p>
     <p>
-      <a class="external" title="peing" href="https://peing.net/Yomu_1GP2022">
-        <i class="fas fa-box-open"></i> 大会質問箱
+      <a class="external" target="_blank" title="peing" href="https://peing.net/Yomu_1GP2022">
+        <i class="fas fa-box-open fa-fw"></i>大会質問箱
       </a>
     </p>
     <p>
       <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
-        <i class="fas fa-envelope"></i> 運営メールアドレス
+        <i class="fas fa-envelope fa-fw"></i>運営メールアドレス
       </a>
     </p>
   </Layout>

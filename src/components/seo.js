@@ -33,8 +33,8 @@ function Seo({ description, lang, meta, title }) {
       htmlAttributes={{
         lang: 'ja',
       }}
-      title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      title={title ? title : defaultTitle}
+      titleTemplate={title ? `%s | ${defaultTitle}` : defaultTitle}
       meta={[
         {
           name: `description`,
@@ -42,7 +42,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: defaultTitle ? title + ` | ${defaultTitle}` : title,
+          content: title ? title + ` | ${defaultTitle}` : defaultTitle,
         },
         {
           property: `og:description`,
@@ -66,7 +66,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: defaultTitle ? title + ` | ${defaultTitle}` : title,
+          content: title ? title + ` | ${defaultTitle}` : defaultTitle,
         },
         {
           name: `twitter:description`,

@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `読ム-１グランプリ2022 特設サイト`,
     author: `@Yomu_1GP2022`,
-    description: `合成音声によるルール無用の漫才大会！`
+    description: `合成音声によるコンプラ無用の漫才大会！`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -13,9 +13,8 @@ body {
   color: white;
   font-family: 'Meiryo', georgia, serif;
   font-family: source-han-sans-japanese,sans-serif;
-  font-weight: 700;
+  font-weight: 300;
   font-style: normal;
-  font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -61,14 +60,13 @@ article {
 }
 aside {
   text-align: center;
-  flex: 0 1 300px;
+  flex: 0 0 300px;
   margin: 1rem;
   padding-top: 2rem;
 }
 @media screen and (min-width: 961px) {
   section{
     display: flex;
-    flex-wrap: wrap;
   }
   main {
     margin: 1rem;
@@ -138,10 +136,10 @@ h1 {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.5rem;
   padding-left: 0;
   padding-right: 0;
-  padding-top: 0;
+  padding-top: 1rem;
   margin-bottom: 1.45rem;
   color: #f59595;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -409,7 +407,7 @@ hgroup {
   margin-bottom: 1.45rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
@@ -462,6 +460,7 @@ p {
   padding-top: 0;
   margin-bottom: 1.45rem;
   font-size: 1.2rem;
+  line-height: 150%;
 }
 pre {
   margin-left: 0;
@@ -530,6 +529,18 @@ iframe {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 0px;
+}
+.wrapper iframe{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 address {
   margin-left: 0;
@@ -788,6 +799,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   p {
     margin-left: 0;
     font-size: 1.05rem;
+    line-height: 160%;
   }
   article {
     padding: 1.2rem;
