@@ -16,7 +16,7 @@ const StLink = styled(Link)`
 
 const Header = ({ siteTitle }) => (
   <header>
-    <h3 class="title">
+    <h3 class="title" style={{paddingLeft: 0}}>
       <StLink to="/">
         {siteTitle}
       </StLink>

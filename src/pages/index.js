@@ -23,6 +23,9 @@ const StLink = styled(Link)`
 const IndexPage = () => (
   <Layout title="ホーム">
     <Seo />
+    <h1>メニュー</h1>
+    <h3><StLink to="/about">概要　<span style={{fontSize: `70%`}}>まずはこちらをご覧ください</span></StLink></h3>
+    <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>
     <h1>過去大会マイリスト</h1>
     <p>
       <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
@@ -52,7 +55,7 @@ const IndexPage = () => (
     </p>
     <p>
       <a class="external" target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
-        <i class="fab fa-twitter fa-fw"></i>大会ツイッターアカウント
+        <i class="fab fa-twitter fa-fw"></i>大会Twitterアカウント
       </a>
     </p>
     <p>

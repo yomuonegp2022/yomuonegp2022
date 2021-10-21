@@ -26,7 +26,7 @@ const About = () => (
     </p>
     <p>ルールは簡単、</p>
     <p>
-      <ul style={{paddingLeft: `1.5rem`}}>
+      <ul>
         <li>
           合成音声による、
         </li>
@@ -46,7 +46,7 @@ const About = () => (
     </p>
     <p>エントリー方法は<StLink to="/rule#entry">こちら</StLink></p>
     <h1>ロゴ</h1>
-    <p>製作：にじみこんいろ様（2018~2020年度運営）</p>
+    <p>製作：にじみこんいろ様（2018～2020年度運営）</p>
     <p>
       <div style={{maxwidth: `60%`}}>
       <a target="_blank" title="読ム-1グランプリ ロゴ" href="https://seiga.nicovideo.jp/seiga/im7836885">
@@ -105,7 +105,7 @@ const About = () => (
       </a>
     </p>
     <h1>過去の大会</h1>
-    <p>2018年度～2020年度は一部リンクが共通しています。</p>
+    <p>2018年度～2020年度は一部リンクが共通しております。</p>
     <h3>2018年度</h3>
     <p>
       <a class="external" target="_blank" title="2018年度特設サイト" href="https://yomu1.netlify.app/">
@@ -118,7 +118,7 @@ const About = () => (
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
       <a class="external" target="_blank" title="2018年度twitter" href="https://twitter.com/Yomu_1GP">
-        <i class="fab fa-twitter fa-fw"></i>ツイッターアカウント
+        <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
       <a class="external" target="_blank" title="2018年度マイリスト" href="https://www.nicovideo.jp/mylist/61478669">
         <i class="fas fa-folder fa-fw"></i>マイリスト
@@ -136,7 +136,7 @@ const About = () => (
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
       <a class="external" target="_blank" title="2019年度twitter" href="https://twitter.com/Yomu_1GP">
-        <i class="fab fa-twitter fa-fw"></i>ツイッターアカウント
+        <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
       <a class="external" target="_blank" title="2019年度マイリスト" href="https://www.nicovideo.jp/mylist/65165304">
         <i class="fas fa-folder fa-fw"></i>マイリスト
@@ -151,7 +151,7 @@ const About = () => (
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
       <a class="external" target="_blank" title="2020年度twitter" href="https://twitter.com/Yomu_1GP">
-        <i class="fab fa-twitter fa-fw"></i>ツイッターアカウント
+        <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
       <a class="external" target="_blank" title="2020年度マイリスト" href="https://www.nicovideo.jp/mylist/67940877">
         <i class="fas fa-folder fa-fw"></i>マイリスト
@@ -166,7 +166,7 @@ const About = () => (
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
       <a class="external" target="_blank" title="2021年度twitter" href="https://twitter.com/Yomu1GP_2021">
-        <i class="fab fa-twitter fa-fw"></i>ツイッターアカウント
+        <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
       <a class="external" target="_blank" title="2021年度マイリスト" href="https://www.nicovideo.jp/mylist/70802564">
         <i class="fas fa-folder fa-fw"></i>マイリスト
@@ -175,7 +175,7 @@ const About = () => (
     <h1>旧運営からのお知らせ</h1>
     <p>旧運営のブロマガの内容の転載となります。（ユーザーブロマガは2021年10月にサービス終了）</p>
     <p>
-      <ul style={{paddingLeft: `1.5rem`}}>
+      <ul>
         <li>
           <StLink to="/page1">2021年以降の読ム-１運営方針について</StLink>
         </li>

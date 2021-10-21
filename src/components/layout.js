@@ -52,7 +52,7 @@ const Layout = ({ children, title }) => {
         }}
       >
         <section>
-          <aside>
+          <aside class={title === `ホーム` ? `` : `hide`}>
             <StLink to="/">
             <StaticImage
               src="../images/yomuonecircle.png"
@@ -64,15 +64,15 @@ const Layout = ({ children, title }) => {
             </StLink>
             <h4 style={{marginBottom: 0}}>合成音声漫才大会</h4>
             <h1 style={{ fontSize: `150%`, marginBottom: `1rem`}}>読ム-１グランプリ</h1>
-            <table border="2" bordercolor="#444444" class={title === `ホーム` ? `` : `hide`}>
+            <table border="2" bordercolor="#444444">
               <tbody>
-                <tr><th><StLink to="/about">エントリー<br />2022/01/01 - 2022/03/10</StLink></th></tr>
+                <tr><th><StLink to="/rule#entry">エントリー<br />2022/01/01 - 2022/03/10</StLink></th></tr>
                 <tr><th>開催<br />2022/04/01</th></tr>
                 <tr><th>投票<br />2022/04/02 - 2022/04/09</th></tr>
                 <tr><th>結果発表<br />2022/04/16</th></tr>
               </tbody>
             </table>
-            <h2 style={{marginBottom: `2rem`}}>
+            <h2 style={{marginBottom: `2rem`}} class="hide">
               <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
                 <i class="fas fa-tv fa-fw"></i>
               </a>
@@ -107,6 +107,19 @@ const Layout = ({ children, title }) => {
             textAlign: `center`,
           }}
         >
+          <h2 style={{marginBottom: `2rem`}} class="hideb">
+            <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
+              <i class="fas fa-tv fa-fw"></i>
+            </a>
+            　　
+            <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
+              <i class="fab fa-twitter fa-fw"></i>
+            </a>
+            　　
+            <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
+              <i class="fas fa-envelope fa-fw"></i>
+            </a>
+          </h2>
           © {new Date().getFullYear()} 読ム-１グランプリ, Built with
           {` `}
           <a href="https://www.gatsbyjs.com">Gatsby</a>

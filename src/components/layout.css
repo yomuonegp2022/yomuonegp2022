@@ -11,8 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #252525;
   color: white;
-  font-family: 'Meiryo', georgia, serif;
-  font-family: source-han-sans-japanese,sans-serif;
+  font-family: source-han-sans-japanese, 'Meiryo', georgia, sans-serif;
   font-weight: 300;
   font-style: normal;
   word-wrap: break-word;
@@ -50,6 +49,7 @@ summary {
 main {
   flex: 3 3 auto;
   margin: 0;
+  padding: 1rem 0 0;
 }
 article {
   background-color: #251e20;
@@ -70,6 +70,10 @@ aside {
   }
   main {
     margin: 1rem;
+    padding: 0;
+  }
+  .hideb {
+    display: none;
   }
 }
 @media screen and (max-width: 960px) {
@@ -333,7 +337,7 @@ h3 {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 1rem;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
@@ -411,7 +415,7 @@ ul {
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 1.5rem;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
@@ -419,16 +423,21 @@ ul {
   list-style-image: none;
 }
 ol {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 1.5rem;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
   list-style-position: outside;
   list-style-image: none;
+}
+.rule {
+  margin-left: 0;
+  padding-left: 0;
+  font-weight: 500;
 }
 dl {
   margin-left: 0;
@@ -626,18 +635,8 @@ th {
   -moz-font-feature-settings: "tnum";
   -ms-font-feature-settings: "tnum";
   -webkit-font-feature-settings: "tnum";
-  padding-left: 0.96667rem;
-  padding-right: 0.96667rem;
   padding-top: 0.5rem;
   padding-bottom: calc(0.725rem - 1px);
-}
-th:first-child,
-td:first-child {
-  padding-left: 0;
-}
-th:last-child,
-td:last-child {
-  padding-right: 0;
 }
 tt,
 code {
@@ -809,6 +808,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
   .under {
     margin-top: 50px;
+  }
+  ol {
+    padding-left: 0.5rem;
+  }
+  ul {
+    padding-left: 0.5rem;
+  }
+  h3 {
+    padding-left: 0;
   }
 }
 
