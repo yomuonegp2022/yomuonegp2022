@@ -23,11 +23,10 @@ const Header = ({ siteTitle }) => (
     </h3>
     <h2 class="sp-title">
       <StLink to="/">
-        読ム-１GP 2022
+        読ム-１グランプリ2022
       </StLink>
     </h2>
-    <p />
-    <nav class="title">
+    <nav class="scroll">
       <ul className={navLinks}>
         <li className={navLinkItem}>
           <Link to="/" className={navLinkText}>

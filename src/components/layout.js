@@ -40,7 +40,6 @@ const Layout = ({ children, title }) => {
 
   return (
     <>
-      <SMenu right width={200} />
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         class="under"
