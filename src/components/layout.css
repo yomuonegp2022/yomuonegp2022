@@ -35,7 +35,11 @@ header {
   z-index: 1;
   border-bottom: 1px solid;
   border-color: #444444;
-    text-align: center;
+  text-align: center;
+  transition: .5s;
+}
+.trans {
+  top: -150px;
 }
 details,
 figcaption,
@@ -809,8 +813,11 @@ Note: Beware of modifying this element as it can break the animations - you shou
   header {
     height: 82px;
   }
+  .trans {
+    top: -82px;
+  }
   .under {
-    margin-top: 77px;
+    margin-top: 82px;
   }
   ol {
     padding-left: 0.5rem;
