@@ -72,11 +72,11 @@ const Layout = ({ children, title }) => {
               </tbody>
             </table>
             <h2 style={{marginBottom: `2rem`}} class="hide">
-              <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
+              <a target="_blank" title="niconico" href="https://www.nicovideo.jp/user/121301564">
                 <i class="fas fa-tv fa-fw"></i>
               </a>
               　　
-              <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
+              <a target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
                 <i class="fab fa-twitter fa-fw"></i>
               </a>
               　　
@@ -107,11 +107,11 @@ const Layout = ({ children, title }) => {
           }}
         >
           <h2 style={{marginBottom: `2rem`}} class="hideb">
-            <a title="niconico" href="https://www.nicovideo.jp/user/121301564">
+            <a target="_blank" title="niconico" href="https://www.nicovideo.jp/user/121301564">
               <i class="fas fa-tv fa-fw"></i>
             </a>
             　　
-            <a title="twitter" href="https://twitter.com/Yomu_1GP2022">
+            <a target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
               <i class="fab fa-twitter fa-fw"></i>
             </a>
             　　
@@ -121,7 +121,7 @@ const Layout = ({ children, title }) => {
           </h2>
           © {new Date().getFullYear()} 読ム-１グランプリ, Built with
           {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          <a target="_blank" href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
       </div>
     </>

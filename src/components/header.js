@@ -16,14 +16,15 @@ const StLink = styled(Link)`
 `
 
 const Header = ({ siteTitle }) => {
-  const [scrollMount, setScroll] =useState(0);
+  const topScroll = 80;
+  const [scrollMount, setScroll] =useState(topScroll);
   const [reveal, setReveal] =useState('');
 
   useEffect(() => {
     const getScroll = () => {
       setScroll(prevScrollMount => {
         const currentScrollMount = Math.max(
-          window.pageYOffset,
+          window.pageYOffset, topScroll
         );
         if (currentScrollMount > prevScrollMount) {
           setReveal('trans')
@@ -33,8 +34,6 @@ const Header = ({ siteTitle }) => {
         return currentScrollMount
       })
     }
-    // スクロールイベントの追加
-    // returnで忘れずにスクロールイベントの削除
     window.addEventListener("scroll", getScroll)
     return () => window.removeEventListener('scroll', getScroll)
   },[]);
