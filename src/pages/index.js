@@ -1,11 +1,9 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import AddScript from "../components/addScript"
 
 const StLink = styled(Link)`
   color: white;
@@ -24,10 +22,11 @@ const StLink = styled(Link)`
 const IndexPage = () => (
   <Layout title="ホーム">
     <Seo />
+    <p>動画埋め込みテスト</p>
     <p>
       <div style={{width: `100%`}}>
         <div class="wrapper" style={{paddingBottom: `56.25%`}}>
-          <AddScript url="https://embed.nicovideo.jp/watch/sm36956086/script?w=640&h=360" />
+          <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm36956086?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
         </div>
       </div>
     </p>

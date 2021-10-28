@@ -1,8 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import { useStaticQuery, graphql } from "gatsby"
-import { /*GatsbyImage, getImage,*/ StaticImage } from "gatsby-plugin-image"
-import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -32,7 +29,7 @@ const Performers = () => {
       <Seo title="参加者一覧" />
       <p>エントリー開始をお待ちください</p>
       <div style={{counterReset: `number`}} />
-      {/*performers.map(p =>
+      {performers.map(p =>
         <Performer
           name={p.node.name}
           _id={p.node._id}
@@ -40,7 +37,7 @@ const Performers = () => {
           comment={p.node.comment}
           movie={p.node.movie}
         />
-      )*/}
+      )}
     </Layout>
   )
 }

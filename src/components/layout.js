@@ -14,19 +14,12 @@ import styled from "styled-components"
 
 import Header from "./header"
 import "./layout.css"
-import Menu from "./menu"
 
 const StLink = styled(Link)`
   color: white;
   activecolor: #800000;
   textdecoration: none;
 `
-const SMenu = styled(Menu)`
-  @media screen and (min-width: 960px) {
-    display: none;
-  };
-`
-
 const Layout = ({ children, title }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
