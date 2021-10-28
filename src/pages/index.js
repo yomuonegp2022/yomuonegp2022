@@ -5,6 +5,7 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import AddScript from "../components/addScript"
 
 const StLink = styled(Link)`
   color: white;
@@ -26,7 +27,7 @@ const IndexPage = () => (
     <p>
       <div style={{width: `100%`}}>
         <div class="wrapper" style={{paddingBottom: `56.25%`}}>
-          <script type="application/javascript" src={`https://embed.nicovideo.jp/watch/sm36956086/script?w=640&h=360`}></script><noscript><a href="https://www.nicovideo.jp/watch/sm36956086">読ム-1グランプリ（旧）からのお知らせ</a></noscript>
+          <AddScript url="https://embed.nicovideo.jp/watch/sm36956086/script?w=640&h=360" />
         </div>
       </div>
     </p>
