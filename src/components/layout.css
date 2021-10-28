@@ -45,11 +45,22 @@ details,
 figcaption,
 figure,
 footer,
-menu,
 nav,
 section,
 summary {
   display: block;
+}
+menu {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 1.5em;
+  padding: .5em 1em;
+  background-color: #252525;
+  border: 1px solid;
+  border-color: #534d52;
+}
+menu > p {
+  margin: 0 0 .5rem 1rem;
 }
 main {
   flex: 3 3 auto;
@@ -151,12 +162,17 @@ h1 {
   padding-top: 1rem;
   margin-bottom: 1.45rem;
   color: #f59595;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: 'Hiragino Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2rem;
   line-height: 1.1;
+}
+.anchor{
+    display: block;
+    padding-top: 7rem;
+    margin-top: -6rem;
 }
 mark {
   background-color: #ff0;
@@ -593,7 +609,7 @@ li > ol {
   margin-top: calc(1.45rem / 2);
 }
 li > ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
@@ -793,6 +809,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .under {
     margin-top: 160px;
   }
+  menu {
+  margin-left: 2rem;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -838,7 +857,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: flex;
   font-size: 110%;
   width: 100%;
-  max-height: 100vh;
   margin-bottom: 1.5em;
   background-color: #252525;
   border: 1px solid;
@@ -917,6 +935,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 50px;
     height: 50px;
     display: inline-block;
+  }
+  .performer-icon {
+    top: 51px;
   }
   .open-icon::before {
     content: '\25bc';

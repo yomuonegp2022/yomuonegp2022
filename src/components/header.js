@@ -17,6 +17,7 @@ const StLink = styled(Link)`
 
 const Header = ({ siteTitle }) => {
   const topScroll = 80;
+  const scrollSpeed = 3;
   const [scrollMount, setScroll] =useState(topScroll);
   const [reveal, setReveal] =useState('');
 
@@ -26,9 +27,10 @@ const Header = ({ siteTitle }) => {
         const currentScrollMount = Math.max(
           window.pageYOffset, topScroll
         );
-        if (currentScrollMount > prevScrollMount) {
+        if (currentScrollMount - prevScrollMount > scrollSpeed) {
           setReveal('trans')
-        } else {
+        } 
+        if (prevScrollMount - currentScrollMount > scrollSpeed) {
           setReveal('')
         }
         return currentScrollMount

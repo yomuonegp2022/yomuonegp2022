@@ -16,6 +16,7 @@ const Performers = () => {
         edges {
           node {
             name
+            _id
             url
             comment
             movie
@@ -31,14 +32,15 @@ const Performers = () => {
       <Seo title="参加者一覧" />
       <p>エントリー開始をお待ちください</p>
       <div style={{counterReset: `number`}} />
-      {performers.map(p =>
+      {/*performers.map(p =>
         <Performer
           name={p.node.name}
+          _id={p.node._id}
           url={p.node.url}
           comment={p.node.comment}
           movie={p.node.movie}
         />
-      )}
+      )*/}
     </Layout>
   )
 }

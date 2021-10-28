@@ -23,6 +23,13 @@ const StLink = styled(Link)`
 const IndexPage = () => (
   <Layout title="ホーム">
     <Seo />
+    <p>
+      <div style={{width: `100%`}}>
+        <div class="wrapper" style={{paddingBottom: `56.25%`}}>
+          <script type="application/javascript" src={`https://embed.nicovideo.jp/watch/sm36956086/script?w=640&h=360`}></script><noscript><a href="https://www.nicovideo.jp/watch/sm36956086">読ム-1グランプリ（旧）からのお知らせ</a></noscript>
+        </div>
+      </div>
+    </p>
     <h1>メニュー</h1>
     <h3><StLink to="/about">概要　<span style={{fontSize: `70%`}}>まずはこちらをご覧ください</span></StLink></h3>
     <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>
@@ -59,7 +66,7 @@ const IndexPage = () => (
       </a>
     </p>
     <p>
-      <a class="external" target="_blank" title="peing" href="https://peing.net/Yomu_1GP2022">
+      <a class="external" target="_blank" title="peing" href="https://peing.net/ja/yomu_1gp2022">
         <i class="fas fa-box-open fa-fw"></i>大会質問箱
       </a>
     </p>

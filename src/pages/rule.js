@@ -14,8 +14,14 @@ const StLink = styled(Link)`
 const Rule = () => (
   <Layout title="大会ルール">
     <Seo title="大会ルール" />
-    <p>under construction</p>
-    <h1 id="entry">エントリー方法</h1>
+    <menu>
+      <p><StLink to="#entry">エントリー方法</StLink></p>
+      <p><StLink to="#schedule">スケジュール</StLink></p>
+      <p><StLink to="#work">応募作品のルール</StLink></p>
+      <p><StLink to="#vote">投票のルール</StLink></p>
+      <p><StLink to="#supplement">補足</StLink></p>
+    </menu>
+    <h1 class="anchor" id="entry">エントリー方法</h1>
     <p>読ム-１グランプリへの参加には、事前のエントリーが必要となります。</p>
     <p>エントリーの際には、</p>
     <p>
@@ -51,10 +57,10 @@ const Rule = () => (
           」タグを固定した動画を投稿
         </li>
         <li>
-          <a class="external" target="_blank" title="運営twitter" href="https://twitter.com/Yomu_1GP2022">
-            <i class="fab fa-twitter fa-fw"></i>運営Twitter
+          <a class="external" target="_blank" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
+            <i class="fab fa-twitter fa-fw"></i>運営TwitterのDM
           </a>
-          のDMに送信
+          に送信
         </li>
         <li>
           <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
@@ -72,7 +78,7 @@ const Rule = () => (
       なお、<i>応募作品は結果発表動画及び次回以降の運営の動画に使用する場合がございます</i>。（使用例は過去の運営の動画をご覧ください）<br />
       エントリー完了の時点でこのことにご同意いただけたものといたしますので、ご同意いただけない場合は、参加表明の際にその旨もお書き添えいただくか、参加表明後にお知らせください。
     </p>
-    <h1>スケジュール</h1>
+    <h1 class="anchor" id="schedule">スケジュール</h1>
     <p>
       <table border="2" bordercolor="#444444" style={{whiteSpace: `nowrap`, maxWidth: `500px`}}>
         <tbody>
@@ -98,7 +104,7 @@ const Rule = () => (
     <p>
       <span style={{fontSize: `80%`}}>※動画にて行います。延期される可能性がございます。</span>
     </p>
-    <h1>応募作品のルール</h1>
+    <h1 class="anchor" id="work">応募作品のルール</h1>
     <h3>1. <span style={{color: `#f59595`}}>合成音声</span>を使用する</h3>
     <p>
       合成音声、すなわち合成音声ソフトによる音声を含めてください。<br />
@@ -147,10 +153,77 @@ const Rule = () => (
       以上8項目となります。なお、最終的な失格の判断は運営が行いますのでご留意ください。
     </p>
     <p>
+      また、ルールには含まれませんが、使用素材や使用ソフトの記載、コンテンツツリー登録もよろしくお願いいたします。
+    </p>
+    <p>
       ご不明な点のある方は、個別にお問い合わせください。
     </p>
-    <h1>投票のルール</h1>
+    <h1 class="anchor" id="vote">投票のルール</h1>
     <p>参加者同士の投票で順位を決定し、上位入賞者を動画にて発表します。各参加者の投票先は開示されません。</p>
+    <p>
+      <ul>
+        <li>
+          投票期間内（4月2日00:00～4月9日23:59）に投票してください。
+        </li>
+        <li>
+          各参加者には3票ずつ持ち票が与えられますので、その3票を自分の作品以外の作品に投票してください。<br />
+          一つの作品に複数票投じることも可能です。
+        </li>
+        <li>
+          投票することで、その参加者の作品にも1票投じられたものとして集計します。
+        </li>
+        <li>
+          投票内容は、投票先・投票数が分かるように、
+          <a class="external" target="_blank" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
+            <i class="fab fa-twitter fa-fw"></i>運営TwitterのDM
+          </a>
+          か
+          <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
+            <i class="fas fa-envelope fa-fw"></i>運営メールアドレス
+          </a>
+          に送信してください。
+        </li>
+        <li>
+          投票期間内であれば、投票のやり直しも可能です。
+        </li>
+        <li>
+          ルール違反が発生・発覚した場合、違反のあった参加者/作品は投票権/得票権を失います。<br />
+          得票権のない作品への投票は無効票となりますのでご注意ください。
+        </li>
+      </ul>
+    </p>
+    <h1 class="anchor" id="supplement">補足</h1>
+    <p>
+      <ul>
+        <li>
+          一参加者（チーム）で複数の作品を応募することができます。
+          <ul>
+            <li>
+              各作品でルールを守るようにしてください。<br />
+              いずれかでルール違反があった場合、投票権と全ての作品の得票権が失われます。
+            </li>
+            <li>
+              応募作品数に関係なく持ち票は3票となります。<br />
+              投票することで、各作品に1票ずつ投じられたものとして集計します。
+            </li>
+            <li>
+              投票は参加者ではなく作品を対象として行いますので、他参加者はご注意ください。
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </p>
+    <p>
+      ルールに関するご質問は、
+      <a class="external" target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
+        <i class="fab fa-twitter fa-fw"></i>運営Twitter
+      </a>
+      か
+      <a class="external" target="_blank" title="peing" href="https://peing.net/ja/yomu_1gp2022">
+        <i class="fas fa-box-open fa-fw"></i>質問箱
+      </a>
+      までお願いいたします。
+    </p>
   </Layout>
 )
 

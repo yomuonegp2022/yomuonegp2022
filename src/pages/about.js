@@ -14,7 +14,7 @@ const StLink = styled(Link)`
 const About = () => (
   <Layout title="概要">
     <Seo title="概要" />
-    <h1>読ム-１とは</h1>
+    <h1 class="anchor" id="about">読ム-１とは</h1>
     <p>
       <ruby>
         <rb>読ム-１</rb>
@@ -45,7 +45,7 @@ const About = () => (
       そして、優勝者は参加者同士の投票で決定！互いに本気の漫才をぶつけ合い、屈服させた者が勝者となる、コンプラ無用のデスマッチだ！
     </p>
     <p>エントリー方法は<StLink to="/rule#entry">こちら</StLink></p>
-    <h1>ロゴ</h1>
+    <h1 class="anchor" id="logo">ロゴ</h1>
     <p>製作：にじみこんいろ様（2018～2020年度運営）</p>
     <p>
       <div style={{maxwidth: `60%`}}>
@@ -67,22 +67,22 @@ const About = () => (
     </p>
     <p>
       <div style={{width: `60%`, maxWidth: `340px`}}>
-      <div class="wrapper" style={{paddingBottom: `112.5%`}}>
-      <iframe
-        src="https://yomu1-2019.netlify.app/logo_BB.mp4"
-        width="305"
-        height="342"
-        title="ロゴBB"
-        allow="fullscreen; autoplay;"
-        frameBorder="0"
-        webkitallowfullscreen="true"
-        mozallowfullscreen="true"
-        scrolling="no"
-      />
-      </div>
+        <div class="wrapper" style={{paddingBottom: `112.5%`}}>
+          <iframe
+            src="https://yomu1-2019.netlify.app/logo_BB.mp4"
+            width="305"
+            height="342"
+            title="ロゴBB"
+            allow="fullscreen; autoplay;"
+            frameBorder="0"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            scrolling="no"
+          />
+        </div>
       </div>
     </p>
-    <h1>運営について</h1>
+    <h1 class="anchor" id="manager">運営について</h1>
     <p>
       読ム-１グランプリ運営は、2021年度より立候補制をとっております。<br />
       開催年度によっては多少のルール変更がある場合もございますので、参加経験のある方もエントリー前に一度ルールをご確認ください。<br />
@@ -98,13 +98,13 @@ const About = () => (
       </a>
       をご覧ください。
     </p>
-    <h1>運営メンバー</h1>
+    <h1 class="anchor" id="members">運営メンバー</h1>
     <p>
       <a class="external" target="_blank" title="蝶番" href="https://twitter.com/ci_cei">
         <i class="fab fa-twitter fa-fw"></i>蝶番
       </a>
     </p>
-    <h1>過去の大会</h1>
+    <h1 class="anchor" id="past">過去の大会</h1>
     <p>2018年度～2020年度は一部リンクが共通しております。</p>
     <h3>2018年度</h3>
     <p>
@@ -172,7 +172,7 @@ const About = () => (
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>
-    <h1>旧運営からのお知らせ</h1>
+    <h1 class="anchor" id="notice">旧運営からのお知らせ</h1>
     <p>旧運営のブロマガの内容の転載となります。（ユーザーブロマガは2021年10月にサービス終了）</p>
     <p>
       <ul>
