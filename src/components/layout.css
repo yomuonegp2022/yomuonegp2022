@@ -881,7 +881,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }
 
 .performer-items {
-  margin: 0.5em 1em;
+  margin: 0.4em 1em 0.4em;
   line-height: 170%;
 }
 
@@ -891,11 +891,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .performer-item-name:before {
   counter-increment: number 1;
+  font-size: 1.3rem;
   content: "No." counter(number) " ";
 }
 
