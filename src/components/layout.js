@@ -84,7 +84,7 @@ const Layout = ({ children, title }) => {
               paddingBottom: `0`,
             }}>
               <h1 style={{
-                paddingTop: `0`,
+                paddingTop: `0.1rem`,
                 color: `white`
                 }}> {title} </h1>
             </article>

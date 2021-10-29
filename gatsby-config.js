@@ -15,9 +15,17 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        tableOfContents: {
+          heading: null,
+          maxDepth: 6,
+        }
+      }
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -53,7 +61,13 @@ module.exports = {
         enterEventName: 'sal:in',
         exitEventName: 'sal:out',
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-catch-links`,
+      options: {
+        excludePattern: /(excluded-link|external)/,
+    },
+},
   ],
   pathPrefix: `/img`,
 }

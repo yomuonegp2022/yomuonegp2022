@@ -74,6 +74,12 @@ article {
   border-color: #444444;
   margin: 0;
 }
+.article {
+  background-color: #251e20;
+  padding: 1rem;
+  border: 1px solid;
+  border-color: #444444;
+}
 aside {
   text-align: center;
   flex: 0 0 300px;
@@ -880,6 +886,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .performer-item-name {
   color: #f59595;
+  font-family: source-han-sans-japanese;
   font-weight: bold;
   font-size: 1.5rem;
 }
