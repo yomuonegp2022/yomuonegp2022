@@ -9,26 +9,18 @@ const StLink = styled(Link)`
   color: white;
   activecolor: #800000;
 `
-
-/*const ExLink = styled(StLink)`
-  &::after {
-  margin: 0 0 0 3px;
-  font-family: "Font Awesome 5 Free";
-  content: '\f35d';
-  font-weight: 900;
-  }
-`*/
-
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query BlogPagesQuery {
       allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}) {
         edges {
           node {
+            fields {
+              slug
+            }
             frontmatter {
               date
               title
-              slug
             }
             id
           }
@@ -52,38 +44,38 @@ const IndexPage = () => {
       <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>
       <h1 class="anchor" id="mylists">過去大会マイリスト</h1>
       <p>
-        <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
+        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
           2018年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/65165304">
+        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/65165304">
           2019年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/67940877">
+        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/67940877">
           2020年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" title="2018" href="https://www.nicovideo.jp/mylist/70802564">
+        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/70802564">
           2021年度
         </a>
       </p>
       <h1 class="anchor" id="links">運営リンク</h1>
       <p>
-        <a class="external" target="_blank" title="niconico" href="https://www.nicovideo.jp/user/121301564">
+        <a class="external" target="_blank" rel="noreferrer" title="niconico" href="https://www.nicovideo.jp/user/121301564">
           <i class="fas fa-tv fa-fw"></i>大会ニコニコアカウント
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
+        <a class="external" target="_blank" rel="noreferrer" title="twitter" href="https://twitter.com/Yomu_1GP2022">
           <i class="fab fa-twitter fa-fw"></i>大会Twitterアカウント
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" title="peing" href="https://peing.net/ja/yomu_1gp2022">
+        <a class="external" target="_blank" rel="noreferrer" title="peing" href="https://peing.net/ja/yomu_1gp2022">
           <i class="fas fa-box-open fa-fw"></i>大会質問箱
         </a>
       </p>
@@ -95,14 +87,14 @@ const IndexPage = () => {
       <h1 class="anchor" id="updates">更新情報</h1>
       {
         data.allMarkdownRemark.edges.map(p => (
-          <div class="article" key={p.node.id}>
-            <h3 style={{padding: 0, marginBottom: `.2rem`}}>
-              <Link to={`/blog/${p.node.frontmatter.slug}`}>
+          <Link to={p.node.fields.slug}>
+            <div class="article" key={p.node.id}>
+              <h3 style={{ padding: 0, marginBottom: `.2rem` }}>
                 {p.node.frontmatter.title}
-              </Link>
-            </h3>
-            <div style={{textAlign: `right`}}>{p.node.frontmatter.date}</div>
-          </div>
+              </h3>
+              <div style={{ textAlign: `right` }}>{p.node.frontmatter.date}</div>
+            </div>
+          </Link>
         ))
       }
     </Layout>

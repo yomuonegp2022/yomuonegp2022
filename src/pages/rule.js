@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
@@ -15,6 +14,7 @@ const Rule = () => (
   <Layout title="大会ルール">
     <Seo title="大会ルール" />
     <menu>
+      <h3 style={{padding: `.5rem 0 .5rem`, marginBottom: `.5rem`}}>目次</h3>
       <p><StLink to="#entry">エントリー方法</StLink></p>
       <p><StLink to="#schedule">スケジュール</StLink></p>
       <p><StLink to="#work">応募作品のルール</StLink></p>
@@ -44,20 +44,20 @@ const Rule = () => (
       <ul>
         <li>
           Twitterの「
-          <a class="external" target="_blank" title="「#読ム_１_2022_参加表明」タグで検索" href="https://twitter.com/search?q=%23%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
+          <a class="external" target="_blank" rel="noreferrer" title="「#読ム_１_2022_参加表明」タグで検索" href="https://twitter.com/search?q=%23%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
             #読ム_１_2022_参加表明
           </a>
             」タグでつぶやく
         </li>
         <li>
           ニコニコ動画に「
-          <a class="external" target="_blank" title="「読ム_１_2022_参加表明」タグで検索" href="https://www.nicovideo.jp/tag/%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
+          <a class="external" target="_blank" rel="noreferrer" title="「読ム_１_2022_参加表明」タグで検索" href="https://www.nicovideo.jp/tag/%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
             読ム_１_2022_参加表明
           </a>
           」タグを固定した動画を投稿
         </li>
         <li>
-          <a class="external" target="_blank" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
+          <a class="external" target="_blank" rel="noreferrer" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
             <i class="fab fa-twitter fa-fw"></i>運営TwitterのDM
           </a>
           に送信
@@ -174,7 +174,7 @@ const Rule = () => (
         </li>
         <li>
           投票内容は、投票先・投票数が分かるように、
-          <a class="external" target="_blank" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
+          <a class="external" target="_blank" rel="noreferrer" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
             <i class="fab fa-twitter fa-fw"></i>運営TwitterのDM
           </a>
           か
@@ -215,11 +215,11 @@ const Rule = () => (
     </p>
     <p>
       ルールに関するご質問は、
-      <a class="external" target="_blank" title="twitter" href="https://twitter.com/Yomu_1GP2022">
+      <a class="external" target="_blank" rel="noreferrer" title="twitter" href="https://twitter.com/Yomu_1GP2022">
         <i class="fab fa-twitter fa-fw"></i>運営Twitter
       </a>
       か
-      <a class="external" target="_blank" title="peing" href="https://peing.net/ja/yomu_1gp2022">
+      <a class="external" target="_blank" rel="noreferrer" title="peing" href="https://peing.net/ja/yomu_1gp2022">
         <i class="fas fa-box-open fa-fw"></i>質問箱
       </a>
       までお願いいたします。

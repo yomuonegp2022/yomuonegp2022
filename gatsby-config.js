@@ -15,17 +15,9 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-transformer-json`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        tableOfContents: {
-          heading: null,
-          maxDepth: 6,
-        }
-      }
-    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

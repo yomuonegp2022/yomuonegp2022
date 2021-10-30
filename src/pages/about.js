@@ -14,6 +14,14 @@ const StLink = styled(Link)`
 const About = () => (
   <Layout title="概要">
     <Seo title="概要" />
+    <menu>
+      <h3 style={{padding: `.5rem 0 .5rem`, marginBottom: `.5rem`}}>目次</h3>
+      <p><StLink to="#about">読ム-１とは</StLink></p>
+      <p><StLink to="#logo">ロゴ</StLink></p>
+      <p><StLink to="#manager">運営について</StLink></p>
+      <p><StLink to="#members">運営メンバー</StLink></p>
+      <p><StLink to="#past">過去の大会</StLink></p>
+    </menu>
     <h1 class="anchor" id="about">読ム-１とは</h1>
     <p>
       <ruby>
@@ -49,7 +57,7 @@ const About = () => (
     <p>製作：にじみこんいろ様（2018～2020年度運営）</p>
     <p>
       <div style={{maxwidth: `60%`}}>
-      <a target="_blank" title="読ム-1グランプリ ロゴ" href="https://seiga.nicovideo.jp/seiga/im7836885">
+      <a target="_blank" rel="noreferrer" title="読ム-1グランプリ ロゴ" href="https://seiga.nicovideo.jp/seiga/im7836885">
         <StaticImage
           src="../images/yomuone.png"
           width={240}
@@ -62,7 +70,7 @@ const About = () => (
     </p>
     <p>
       アニメーションBB素材<br />
-      （<a class="external" target="_blank" title="ロゴBB" href="https://ux.getuploader.com/YOMU_1GP2018/download/7">専用アップローダー</a>
+      （<a class="external" target="_blank" rel="noreferrer" title="ロゴBB" href="https://ux.getuploader.com/YOMU_1GP2018/download/7">専用アップローダー</a>
       からダウンロードしてご利用ください）
     </p>
     <p>
@@ -93,14 +101,14 @@ const About = () => (
     </p>
     <p>
       詳しくは、
-      <a class="external" target="_blank" title="読ム-1グランプリ（旧）からのお知らせ" href="https://www.nicovideo.jp/watch/sm36956086">
+      <a class="external" target="_blank" rel="noreferrer" title="読ム-1グランプリ（旧）からのお知らせ" href="https://www.nicovideo.jp/watch/sm36956086">
         <i class="fas fa-tv fa-fw"></i> 読ム-1グランプリ（旧）からのお知らせ
       </a>
       をご覧ください。
     </p>
     <h1 class="anchor" id="members">運営メンバー</h1>
     <p>
-      <a class="external" target="_blank" title="蝶番" href="https://twitter.com/ci_cei">
+      <a class="external" target="_blank" rel="noreferrer" title="蝶番" href="https://twitter.com/ci_cei">
         <i class="fab fa-twitter fa-fw"></i>蝶番
       </a>
     </p>
@@ -108,67 +116,67 @@ const About = () => (
     <p>2018年度～2020年度は一部リンクが共通しております。</p>
     <h3>2018年度</h3>
     <p>
-      <a class="external" target="_blank" title="2018年度特設サイト" href="https://yomu1.netlify.app/">
+      <a class="external" target="_blank" rel="noreferrer" title="2018年度特設サイト" href="https://yomu1.netlify.app/">
         <i class="fas fa-pager fa-fw"></i>大会サイト
       </a><br />
-      <a class="external" target="_blank" title="2018年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
+      <a class="external" target="_blank" rel="noreferrer" title="2018年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
         <i class="fas fa-users fa-fw"></i>コミュニティ
       </a><br />
-      <a class="external" target="_blank" title="2018年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
+      <a class="external" target="_blank" rel="noreferrer" title="2018年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
-      <a class="external" target="_blank" title="2018年度twitter" href="https://twitter.com/Yomu_1GP">
+      <a class="external" target="_blank" rel="noreferrer" title="2018年度twitter" href="https://twitter.com/Yomu_1GP">
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
-      <a class="external" target="_blank" title="2018年度マイリスト" href="https://www.nicovideo.jp/mylist/61478669">
+      <a class="external" target="_blank" rel="noreferrer" title="2018年度マイリスト" href="https://www.nicovideo.jp/mylist/61478669">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>
     <h3>2019年度</h3>
     <p>
-      <a class="external" target="_blank" title="2019年度特設サイト" href="https://yomu1-2019.netlify.app/">
+      <a class="external" target="_blank" rel="noreferrer" title="2019年度特設サイト" href="https://yomu1-2019.netlify.app/">
         <i class="fas fa-pager fa-fw"></i>大会サイト
       </a><br />
-      <a class="external" target="_blank" title="2019年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
+      <a class="external" target="_blank" rel="noreferrer" title="2019年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
         <i class="fas fa-users fa-fw"></i>コミュニティ
       </a><br />
-      <a class="external" target="_blank" title="2019年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
+      <a class="external" target="_blank" rel="noreferrer" title="2019年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
-      <a class="external" target="_blank" title="2019年度twitter" href="https://twitter.com/Yomu_1GP">
+      <a class="external" target="_blank" rel="noreferrer" title="2019年度twitter" href="https://twitter.com/Yomu_1GP">
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
-      <a class="external" target="_blank" title="2019年度マイリスト" href="https://www.nicovideo.jp/mylist/65165304">
+      <a class="external" target="_blank" rel="noreferrer" title="2019年度マイリスト" href="https://www.nicovideo.jp/mylist/65165304">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>
     <h3>2020年度</h3>
     <p>
-      <a class="external" target="_blank" title="2020年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
+      <a class="external" target="_blank" rel="noreferrer" title="2020年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
         <i class="fas fa-users fa-fw"></i>コミュニティ
       </a><br />
-      <a class="external" target="_blank" title="2020年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
+      <a class="external" target="_blank" rel="noreferrer" title="2020年度ニコニコ" href="https://www.nicovideo.jp/user/72128077">
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
-      <a class="external" target="_blank" title="2020年度twitter" href="https://twitter.com/Yomu_1GP">
+      <a class="external" target="_blank" rel="noreferrer" title="2020年度twitter" href="https://twitter.com/Yomu_1GP">
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
-      <a class="external" target="_blank" title="2020年度マイリスト" href="https://www.nicovideo.jp/mylist/67940877">
+      <a class="external" target="_blank" rel="noreferrer" title="2020年度マイリスト" href="https://www.nicovideo.jp/mylist/67940877">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>
     <h3>2021年度</h3>
     <p>
-      <a class="external" target="_blank" title="2021年度特設サイト" href="https://uguisumotiblog.fc2.net/">
+      <a class="external" target="_blank" rel="noreferrer" title="2021年度特設サイト" href="https://uguisumotiblog.fc2.net/">
         <i class="fas fa-pager fa-fw"></i>大会サイト
       </a><br />
-      <a class="external" target="_blank" title="2021年度ニコニコ" href="https://www.nicovideo.jp/user/116028483">
+      <a class="external" target="_blank" rel="noreferrer" title="2021年度ニコニコ" href="https://www.nicovideo.jp/user/116028483">
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
-      <a class="external" target="_blank" title="2021年度twitter" href="https://twitter.com/Yomu1GP_2021">
+      <a class="external" target="_blank" rel="noreferrer" title="2021年度twitter" href="https://twitter.com/Yomu1GP_2021">
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
-      <a class="external" target="_blank" title="2021年度マイリスト" href="https://www.nicovideo.jp/mylist/70802564">
+      <a class="external" target="_blank" rel="noreferrer" title="2021年度マイリスト" href="https://www.nicovideo.jp/mylist/70802564">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>

@@ -31,23 +31,23 @@ const Page1 = () => (
     </p>
     <h2>告知動画</h2>
     <p>
-      <a target="_blank" href="https://www.nicovideo.jp/watch/sm36956086">
+      <a target="_blank" rel="noreferrer" href="https://www.nicovideo.jp/watch/sm36956086">
       https://www.nicovideo.jp/watch/sm36956086</a>
     </p>
     <h2>過去大会マイリスト</h2>
     <p>
-      2020年度：<a target="_blank" href="https://www.nicovideo.jp/my/mylist/#/67940877">
+      2020年度：<a target="_blank" rel="noreferrer" href="https://www.nicovideo.jp/my/mylist/#/67940877">
       https://www.nicovideo.jp/my/mylist/#/67940877</a><br />
-      2019年度：<a target="_blank" href="https://www.nicovideo.jp/my/mylist/#/65165304">
+      2019年度：<a target="_blank" rel="noreferrer" href="https://www.nicovideo.jp/my/mylist/#/65165304">
       https://www.nicovideo.jp/my/mylist/#/65165304</a><br />
-      2018年度：<a target="_blank" href="https://www.nicovideo.jp/my/mylist/#/61478669">
+      2018年度：<a target="_blank" rel="noreferrer" href="https://www.nicovideo.jp/my/mylist/#/61478669">
       https://www.nicovideo.jp/my/mylist/#/61478669</a><br />
     </p>
     <h2>過去サイト</h2>
     <p>
-      2018年度読ム-１サイト： <a target="_blank" href="https://yomu1.netlify.com/">
+      2018年度読ム-１サイト： <a target="_blank" rel="noreferrer" href="https://yomu1.netlify.com/">
       https://yomu1.netlify.com/</a><br />
-      2019年度読ム-１サイト： <a target="_blank" href="https://yomu1-2019.netlify.com/">
+      2019年度読ム-１サイト： <a target="_blank" rel="noreferrer" href="https://yomu1-2019.netlify.com/">
       https://yomu1-2019.netlify.com/</a>
     </p>
   </Layout>

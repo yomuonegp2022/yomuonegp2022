@@ -23,12 +23,12 @@ const Performer = ({ name, _id, url, comment, movie }) => {
               {name}
             </div>
             {_id === "" ? <div /> :
-              <a class="performer-item-url" target="_blank" title={_id} href={`https://nicovideo.jp/user/${_id}`}>
+              <a class="performer-item-url" target="_blank" rel="noreferrer" title={_id} href={`https://nicovideo.jp/user/${_id}`}>
                 user/{_id}
               </a>
             }
             {url === "" ? <div /> :
-              <a class="performer-item-url" target="_blank" title={url} href={url}>
+              <a class="performer-item-url" target="_blank" rel="noreferrer" title={url} href={url}>
                 {url}
               </a>
             }
@@ -37,7 +37,7 @@ const Performer = ({ name, _id, url, comment, movie }) => {
             </div>
             {movie.map(m =>
               {return m === "" ? <div /> :
-                <div><a class="performer-item-movie" target="_blank" title={m} href={`https://nicovideo.jp/watch/${m}`}>
+                <div><a class="performer-item-movie" target="_blank" rel="noreferrer" title={m} href={`https://nicovideo.jp/watch/${m}`}>
                   {m}
                 </a></div>
               }

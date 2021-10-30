@@ -78,7 +78,7 @@ const Page2 = () => (
     </p>
     <p>
       読ム-１ロゴマーク素材<br />
-      <a target="_blank" href="https://seiga.nicovideo.jp/seiga/im7836885">https://seiga.nicovideo.jp/seiga/im7836885</a>
+      <a target="_blank" rel="noreferrer" href="https://seiga.nicovideo.jp/seiga/im7836885">https://seiga.nicovideo.jp/seiga/im7836885</a>
     </p>
   </Layout>
 )
