@@ -47,20 +47,20 @@ const Rule = () => (
           <a class="external" target="_blank" rel="noreferrer" title="「#読ム_１_2022_参加表明」タグで検索" href="https://twitter.com/search?q=%23%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
             #読ム_１_2022_参加表明
           </a>
-            」タグでつぶやく
+            」タグでつぶやく or
         </li>
         <li>
           ニコニコ動画に「
           <a class="external" target="_blank" rel="noreferrer" title="「読ム_１_2022_参加表明」タグで検索" href="https://www.nicovideo.jp/tag/%E8%AA%AD%E3%83%A0_1_2022_%E5%8F%82%E5%8A%A0%E8%A1%A8%E6%98%8E">
             読ム_１_2022_参加表明
           </a>
-          」タグを固定した動画を投稿
+          」タグを固定した動画を投稿 or
         </li>
         <li>
           <a class="external" target="_blank" rel="noreferrer" title="運営twitterへDM" href="https://twitter.com/messages/compose?recipient_id=1446805461521473547">
             <i class="fab fa-twitter fa-fw"></i>運営TwitterのDM
           </a>
-          に送信
+          に送信 or
         </li>
         <li>
           <a href="m&#97;i&#108;t&#111;:yom&#117;&#111;&#110;&#101;2&#48;&#50;&#50;&#64;&#103;&#109;a&#105;l&#46;&#99;om">
@@ -170,7 +170,7 @@ const Rule = () => (
           一つの作品に複数票投じることも可能です。
         </li>
         <li>
-          投票することで、その参加者の作品にも1票投じられたものとして集計します。
+          投票することで、投票した参加者の作品にも1票投じられたものとして集計します。
         </li>
         <li>
           投票内容は、投票先・投票数が分かるように、
