@@ -107,9 +107,12 @@ const About = () => (
       をご覧ください。
     </p>
     <h1 class="anchor" id="members">運営メンバー</h1>
-    <p>
+    <p style={{lineHeight: `2`}}>
       <a class="external" target="_blank" rel="noreferrer" title="蝶番" href="https://twitter.com/ci_cei">
         <i class="fab fa-twitter fa-fw"></i>蝶番
+      </a>（主催）<br />
+      <a class="external" target="_blank" rel="noreferrer" title="俺の彼女" href="https://www.nicovideo.jp/user/70754256">
+        <i class="fas fa-tv fa-fw"></i>俺の彼女
       </a>
     </p>
     <h1 class="anchor" id="past">過去の大会</h1>
