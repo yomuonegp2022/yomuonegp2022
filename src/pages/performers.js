@@ -27,7 +27,7 @@ const Performers = () => {
   return (
     <Layout title="参加者一覧">
       <Seo title="参加者一覧" />
-      <p>エントリー開始をお待ちください</p>
+      <p>エントリー受付中！</p>
       <div style={{counterReset: `number`}} />
       {/*performers.map(p =>
         <Performer

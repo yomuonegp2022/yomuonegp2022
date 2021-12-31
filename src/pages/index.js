@@ -32,6 +32,7 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
+      <h1><StLink to="/rule#entry">エントリー受付中！</StLink></h1>
       <p>
         <div style={{width: `100%`}}>
           <div class="wrapper" style={{paddingBottom: `56.25%`}}>
@@ -42,6 +43,7 @@ const IndexPage = () => {
       <h1 class="anchor" id="menu">メニュー</h1>
       <h3><StLink to="/about">概要　<span style={{fontSize: `70%`}}>まずはこちらをご覧ください</span></StLink></h3>
       <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>
+      <h3><StLink to="/performers">参加者一覧　<span style={{fontSize: `70%`}}>勇気ある挑戦者の方々</span></StLink></h3>
       <h1 class="anchor" id="mylists">過去大会マイリスト</h1>
       <p>
         <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
