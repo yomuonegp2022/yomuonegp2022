@@ -33,7 +33,7 @@ const Performer = ({ name, _id, url, comment, movie }) => {
               </a>
             }
             <div class="performer-item-comment">
-              {comment}
+              <div dangerouslySetInnerHTML={{ __html: comment }} />
             </div>
             {movie.map(m =>
               {return m === "" ? <div /> :

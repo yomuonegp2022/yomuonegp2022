@@ -1,10 +1,16 @@
 import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
 import Performer from "../components/performer"
+
+const StLink = styled(Link)`
+  color: white;
+  activecolor: #800000;
+`
 
 const Performers = () => {
   const data = useStaticQuery(graphql`
@@ -27,9 +33,9 @@ const Performers = () => {
   return (
     <Layout title="参加者一覧">
       <Seo title="参加者一覧" />
-      <p>エントリー受付中！</p>
+      <p><StLink to="/rule#entry">エントリー受付中！</StLink></p>
       <div style={{counterReset: `number`}} />
-      {/*performers.map(p =>
+      {performers.map(p =>
         <Performer
           name={p.node.name}
           _id={p.node._id}
@@ -37,7 +43,7 @@ const Performers = () => {
           comment={p.node.comment}
           movie={p.node.movie}
         />
-      )*/}
+      )}
     </Layout>
   )
 }
