@@ -58,7 +58,7 @@ const Layout = ({ children, title }) => {
             <h1 style={{ fontSize: `150%`, marginBottom: `1rem`}}>読ム-１グランプリ</h1>
             <table border="2" bordercolor="#444444">
               <tbody>
-                <tr><th><StLink to="/rule#entry">エントリー<br />2022/01/01 - 2022/03/10</StLink></th></tr>
+                <tr><th><StLink to="/rule#entry">エントリー<br />2022/01/01 - <span style={{ color: `#f59595` }}>2022/03/10</span></StLink></th></tr>
                 <tr><th>開催<br />2022/04/01</th></tr>
                 <tr><th>投票<br />2022/04/02 - 2022/04/09</th></tr>
                 <tr><th>結果発表<br />2022/04/16</th></tr>
