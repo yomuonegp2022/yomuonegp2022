@@ -32,7 +32,7 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
-      <p><span style={{ color: `#f59595` }}>4月1日</span>開催！</p>
+      <h1>4月1日<span style={{ color: `#ffffff` }}>開催！</span></h1>
       <p>
         <div style={{width: `100%`}}>
           <div class="wrapper" style={{paddingBottom: `56.25%`}}>
