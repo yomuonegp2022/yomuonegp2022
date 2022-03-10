@@ -33,7 +33,6 @@ const Performers = () => {
   return (
     <Layout title="参加者一覧">
       <Seo title="参加者一覧" />
-      <p><StLink to="/rule#entry">エントリー受付中！</StLink></p>
       <div style={{counterReset: `number`}} />
       {performers.map(p =>
         <Performer

@@ -32,7 +32,7 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
-      <h1><StLink to="/rule#entry">エントリーは<span style={{ color: `#f59595` }}>3月10日</span>まで！</StLink></h1>
+      <p><span style={{ color: `#f59595` }}>4月1日</span>開催！</p>
       <p>
         <div style={{width: `100%`}}>
           <div class="wrapper" style={{paddingBottom: `56.25%`}}>
