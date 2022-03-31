@@ -32,11 +32,16 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
-      <h1>4月1日<span style={{ color: `#ffffff` }}>開催！</span></h1>
+      <h1>開催中！</h1>
+      <h3>
+        <a class="external" target="_blank" rel="noreferrer" title="mylist" href="https://www.nicovideo.jp/mylist/72028119">
+          <i class="fas fa-folder fa-fw"></i>参加作品マイリスト
+        </a>
+      </h3>
       <p>
         <div style={{width: `100%`}}>
           <div class="wrapper" style={{paddingBottom: `56.25%`}}>
-            <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm39848317?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
+            <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm40253535?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
           </div>
         </div>
       </p>

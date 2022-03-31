@@ -170,15 +170,15 @@ const About = () => (
     </p>
     <h3>2021年度</h3>
     <p>
-      <a class="external" target="_blank" rel="noreferrer" title="2021年度特設サイト" href="https://uguisumotiblog.fc2.net/">
+      <a class="external" target="_blank" rel="noreferrer" title="2021年度特設サイト" href="https://uguisumotiblog.fc2.net/blog-category-3.html">
         <i class="fas fa-pager fa-fw"></i>大会サイト
       </a><br />
       <a class="external" target="_blank" rel="noreferrer" title="2021年度ニコニコ" href="https://www.nicovideo.jp/user/116028483">
         <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
       </a><br />
-      <a class="external" target="_blank" rel="noreferrer" title="2021年度twitter" href="https://twitter.com/Yomu1GP_2021">
+      {/*<a class="external" target="_blank" rel="noreferrer" title="2021年度twitter" href="https://twitter.com/Yomu1GP_2021">
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
-      </a><br />
+      </a><br />*/}
       <a class="external" target="_blank" rel="noreferrer" title="2021年度マイリスト" href="https://www.nicovideo.jp/mylist/70802564">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
