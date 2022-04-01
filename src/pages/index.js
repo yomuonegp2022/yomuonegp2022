@@ -32,7 +32,7 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
-      <h1>開催中！</h1>
+      <h1><StLink to="/rule#vote">投票受付中！</StLink></h1>
       <h3>
         <a class="external" target="_blank" rel="noreferrer" title="mylist" href="https://www.nicovideo.jp/mylist/72028119">
           <i class="fas fa-folder fa-fw"></i>参加作品マイリスト
