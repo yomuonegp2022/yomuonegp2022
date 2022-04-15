@@ -60,8 +60,8 @@ const Layout = ({ children, title }) => {
               <tbody>
                 <tr><th><span style={{ color: `#a0a0a0` }}>エントリー<br />2022/01/01 - 2022/03/10</span></th></tr>
                 <tr><th><span style={{ color: `#a0a0a0` }}>開催<br />2022/04/01</span></th></tr>
-                <tr><th><StLink to="/rule#vote">投票<br /><span style={{ color: `#f59595` }}>2022/04/02 - 2022/04/</span><span style={{ color: `#ff0000` }}>15</span></StLink></th></tr>
-                <tr><th>結果発表<br />2022/04/<span style={{ color: `#ff0000` }}>22</span></th></tr>
+                <tr><th><span style={{ color: `#a0a0a0` }}>投票<br />2022/04/02 - 2022/04/<span style={{ color: `#ff0000` }}>15</span></span></th></tr>
+                <tr><th>結果発表<br /><span style={{ color: `#f59595` }}>2022/04/<span style={{ color: `#ff0000` }}>22</span></span></th></tr>
               </tbody>
             </table>
             <h2 style={{marginBottom: `2rem`}} class="hide">
