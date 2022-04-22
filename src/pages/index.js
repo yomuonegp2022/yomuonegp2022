@@ -32,19 +32,19 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
-      <h1><span style={{ color: `#ffffff` }}>結果発表は</span>22日<span style={{ color: `#ffffff` }}>投稿予定！</span></h1>
+      <h1>結果発表！</h1>
+      <p>
+        <div style={{width: `100%`}}>
+          <div class="wrapper" style={{paddingBottom: `56.25%`}}>
+            <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm40354088?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
+          </div>
+        </div>
+      </p>
       <h3>
         <a class="external" target="_blank" rel="noreferrer" title="mylist" href="https://www.nicovideo.jp/mylist/72028119">
           <i class="fas fa-folder fa-fw"></i>参加作品マイリスト
         </a>
       </h3>
-      <p>
-        <div style={{width: `100%`}}>
-          <div class="wrapper" style={{paddingBottom: `56.25%`}}>
-            <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm40253535?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
-          </div>
-        </div>
-      </p>
       <h1 class="anchor" id="menu">メニュー</h1>
       <h3><StLink to="/about">概要　<span style={{fontSize: `70%`}}>まずはこちらをご覧ください</span></StLink></h3>
       <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>

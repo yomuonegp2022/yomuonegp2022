@@ -106,6 +106,13 @@ const About = () => (
       </a>
       をご覧ください。
     </p>
+    <p>
+      また、
+      <a class="external" target="_blank" rel="noreferrer" title="読ム-1グランプリ専用アップローダー" href="https://ux.getuploader.com/YOMU_1GP2018/">
+        読ム-1グランプリ専用アップローダー
+      </a>
+      に今回の運営の引き継ぎ資料を用意させていただきましたので、ぜひご利用ください。
+    </p>
     <h1 class="anchor" id="members">運営メンバー</h1>
     <p style={{lineHeight: `2`}}>
       <a class="external" target="_blank" rel="noreferrer" title="蝶番" href="https://twitter.com/ci_cei">
