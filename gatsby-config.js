@@ -22,7 +22,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `2022年度 読ム-１グランプリ`,
-        short_name: `読ム-１GP 2021`,
+        short_name: `読ム-１GP 2022`,
         start_url: `/`,
         background_color: `#800000`,
         // This will impact how browsers show your PWA/website
