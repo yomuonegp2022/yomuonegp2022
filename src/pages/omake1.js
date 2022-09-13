@@ -13,10 +13,12 @@ const StLink = styled(Link)`
 const Omake1 = () => (
   <Layout title="運営感想 - はじめに">
     <Seo title="運営感想 - はじめに" />
+    <StLink to="/omake">←運営感想トップに戻る</StLink>
+    <p></p>
     <p style={{ paddingBottom: `3rem`, }}>お疲れ様でした！ワ〜〜〜〜！！！</p>
     <p>
       とりあえず、比較的運営に際して参考になるかもしれない、けど
-      <a target="_blank" rel="noreferrer" title="読ム-1グランプリ専用アップローダー" href="https://ux.getuploader.com/YOMU_1GP2018/">引き継ぎ資料</a>
+      <a class="external" target="_blank" rel="noreferrer" title="読ム-1グランプリ専用アップローダー" href="https://ux.getuploader.com/YOMU_1GP2018/">引き継ぎ資料</a>
       に残すほどではないかな…という内容をだらだらと述べていきます。何か余計なことを言うかもしれないけど都合よく聞き流してください。<br />
       余計なことを言う前に言うべきことを言っておきます。今大会を無事開催できたのは、参加者、視聴者の皆さんは勿論のこと、運営に参加して下さった俺の彼女さんをはじめとして様々な形で協力・応援して下さった皆さん、この大会を作って下さった旧運営の皆さん、運営立候補制という新たな仕組みに対し最初に手を挙げ読ム-１を存続して下さったゆっくりうぐいすもちさんにその運営にご協力された皆さん、それに合成音声漫才大会の先駆者たるＶＭ－１グランプリ様、あと合成音声ソフト達やその文化を作り出してきた数えきれない方々！！皆様のお陰です。こういうの深掘りするほど見落としが心配になるよね。あったらごめんなさい。
     </p>
@@ -24,7 +26,7 @@ const Omake1 = () => (
       <ul>
         <li>
           紹介や講評不要というのはマジのガチだよ！！
-          <a target="_blank" rel="noreferrer" title="2022年度読ム-１グランプリについて" href="https://www.nicovideo.jp/watch/sm39659238">最初の告知</a>
+          <a class="external" target="_blank" rel="noreferrer" title="2022年度読ム-１グランプリについて" href="https://www.nicovideo.jp/watch/sm39659238">最初の告知</a>
           で言ったように講評すら他人に投げようとしていたクチです。9割方分の参加者紹介原稿をぶつけられなければまさか作ろうとは思いませんでした。<br />
           改めて
           <StLink to="/page1">運営立候補に関するルール</StLink>
@@ -64,7 +66,7 @@ const Omake1 = () => (
       <ul>
         <li>
           <b>サイトについて</b>　立候補理由の3割くらいが、「見やすいサイトを作りたい」でした。そして
-          <a target="_blank" rel="noreferrer" title="yomuonegp2022" href="https://github.com/yomuonegp2022/yomuonegp2022">そのソース</a>
+          <a class="external" target="_blank" rel="noreferrer" title="yomuonegp2022" href="https://github.com/yomuonegp2022/yomuonegp2022">そのソース</a>
           は公開していて、誰でも利用できるようにしています。ではなぜこことは別に引き継ぎ資料としてサイトテンプレートを作ってもらっているのかというと、そのソースからサイトを構築するのがそれなりにめんどいからなんですね。ほぼ知識ゼロから行き当たりばったりで作るからこんなことになってしまいました。でも折角作ったので使い方やこだわりなんかについて話します。
         </li>
         <li>
@@ -76,6 +78,7 @@ const Omake1 = () => (
       </ul>
     </p>
     <p>など。更新したらまた個人の方で呟くと思います。</p>
+    <StLink to="/omake">←運営感想トップに戻る</StLink>
   </Layout>
 )
 

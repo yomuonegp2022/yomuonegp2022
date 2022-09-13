@@ -162,6 +162,9 @@ const About = () => (
     </p>
     <h3>2020年度</h3>
     <p>
+      <a class="external" target="_blank" rel="noreferrer" title="2020年度特設サイト" href="https://yomu1-2020.netlify.app/">
+        <i class="fas fa-pager fa-fw"></i>大会サイト
+      </a><br />
       <a class="external" target="_blank" rel="noreferrer" title="2020年度コミュニティ" href="https://com.nicovideo.jp/community/co3737919">
         <i class="fas fa-users fa-fw"></i>コミュニティ
       </a><br />

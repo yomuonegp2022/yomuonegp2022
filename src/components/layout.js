@@ -112,7 +112,7 @@ const Layout = ({ children, title }) => {
               <i class="fas fa-envelope fa-fw"></i>
             </a>
           </h2>
-          © {new Date().getFullYear()} 読ム-１グランプリ, Built with
+          © 2021-2022 読ム-１グランプリ2022, Built with
           {` `}
           <a target="_blank" rel="noreferrer" href="https://www.gatsbyjs.com">Gatsby</a>
         </footer>
