@@ -29,6 +29,7 @@ const Omake2 = () => (
       <p style={{padding: `.5rem 0 .2rem`, margin: `.2rem .3rem .2rem`}}><StLink to="/omake3">次ページ</StLink></p>
       <p><StLink to="/omake3#performers">参加者一覧の書き換え</StLink></p>
       <p><StLink to="/omake3#blog">更新情報の書き換え</StLink></p>
+      <p><StLink to="/omake3#others">その他</StLink></p>
     </menu>
     <h2 class="anchor" id="copy">サイトのコピー</h2>
     <p><StaticImage src="../images/omake/omake2-00.png" width={420} formats={["auto", "webp", "avif"]} /></p>
