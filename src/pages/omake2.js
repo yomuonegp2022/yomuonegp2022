@@ -16,6 +16,8 @@ const Omake2 = () => (
     <Seo title="運営感想 - サイトについて1" />
     <StLink to="/omake">←運営感想トップに戻る</StLink>
     <p></p>
+    <p><i>※Gatsby Cloudは<a class="external" target="_blank" rel="noreferrer" title="Netlify Announces the Evolution of Cloud Platform" href="https://www.netlify.com/blog/gatsby-cloud-evolution/">サービスを終了</a>しました。移行先の<a class="external" target="_blank" rel="noreferrer" title="Netlify" href="https://www.netlify.com/">Netlify</a>にて、ほぼ同様の手順でビルドができます。</i></p>
+    <p></p>
     <p><s>半年放置したら全部忘れた</s></p>
     <p>
       あながち冗談でもなく、ようこんなもん作れたな…と頭を抱えています。

@@ -49,25 +49,30 @@ const IndexPage = () => {
       <h3><StLink to="/about">概要　<span style={{fontSize: `70%`}}>まずはこちらをご覧ください</span></StLink></h3>
       <h3><StLink to="/rule">ルール　<span style={{fontSize: `70%`}}>参加予定の方はこちら</span></StLink></h3>
       <h3><StLink to="/performers">参加者一覧　<span style={{fontSize: `70%`}}>勇気ある挑戦者の方々</span></StLink></h3>
-      <h1 class="anchor" id="mylists">過去大会マイリスト</h1>
+      <h1 class="anchor" id="mylists">他大会マイリスト</h1>
       <p>
         <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/61478669">
           2018年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/65165304">
+        <a class="external" target="_blank" rel="noreferrer" title="2019" href="https://www.nicovideo.jp/mylist/65165304">
           2019年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/67940877">
+        <a class="external" target="_blank" rel="noreferrer" title="2020" href="https://www.nicovideo.jp/mylist/67940877">
           2020年度
         </a>
       </p>
       <p>
-        <a class="external" target="_blank" rel="noreferrer" title="2018" href="https://www.nicovideo.jp/mylist/70802564">
+        <a class="external" target="_blank" rel="noreferrer" title="2021" href="https://www.nicovideo.jp/mylist/70802564">
           2021年度
+        </a>
+      </p>
+      <p>
+        <a class="external" target="_blank" rel="noreferrer" title="2023" href="https://www.nicovideo.jp/mylist/74153670">
+          2023年度
         </a>
       </p>
       <h1 class="anchor" id="links">運営リンク</h1>
