@@ -32,11 +32,12 @@ const IndexPage = () => {
   return (
     <Layout title="ホーム">
       <Seo />
+      <h3><StLink to="/gacha">読ム-１参加作品ガチャ（～2024）</StLink></h3>
       <h1>結果発表！</h1>
       <p>
         <div style={{width: `100%`}}>
           <div class="wrapper" style={{paddingBottom: `56.25%`}}>
-            <iframe allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm40354088?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
+            <iframe title="2022年度　読ム-1グランプリ　結果発表" allowfullscreen="allowfullscreen" allow="autoplay" src="https://embed.nicovideo.jp/watch/sm40354088?oldScript=1&referer=&from=0&allowProgrammaticFullScreen=1" style={{position: `absolute`, width: `100%`, height: `100%`, border: `none`,}}></iframe>
           </div>
         </div>
       </p>
@@ -73,6 +74,11 @@ const IndexPage = () => {
       <p>
         <a class="external" target="_blank" rel="noreferrer" title="2023" href="https://www.nicovideo.jp/mylist/74153670">
           2023年度
+        </a>
+      </p>
+      <p>
+        <a class="external" target="_blank" rel="noreferrer" title="2023" href="https://www.nicovideo.jp/mylist/76187044">
+          2024年度
         </a>
       </p>
       <h1 class="anchor" id="links">運営リンク</h1>

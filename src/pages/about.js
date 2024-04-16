@@ -123,7 +123,7 @@ const About = () => (
       </a>
     </p>
     <h1 class="anchor" id="past">他年度の大会</h1>
-    <p>2018年度～2020年度は一部リンクが共通しております。</p>
+    <p>運営が同じ大会では一部リンクが共通しております。</p>
     <h3>2018年度</h3>
     <p>
       <a class="external" target="_blank" rel="noreferrer" title="2018年度特設サイト" href="https://yomu1.netlify.app/">
@@ -205,6 +205,21 @@ const About = () => (
         <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
       </a><br />
       <a class="external" target="_blank" rel="noreferrer" title="2023年度マイリスト" href="https://www.nicovideo.jp/mylist/74153670">
+        <i class="fas fa-folder fa-fw"></i>マイリスト
+      </a><br />
+    </p>
+    <h3>2024年度</h3>
+    <p>
+      <a class="external" target="_blank" rel="noreferrer" title="2024年度特設サイト" href="https://yomu1-2024.netlify.app/">
+        <i class="fas fa-pager fa-fw"></i>大会サイト
+      </a><br />
+      <a class="external" target="_blank" rel="noreferrer" title="2024年度ニコニコ" href="https://www.nicovideo.jp/user/126871155">
+        <i class="fas fa-tv fa-fw"></i>ニコニコアカウント
+      </a><br />
+      <a class="external" target="_blank" rel="noreferrer" title="2024年度twitter" href="https://twitter.com/Yomu_1GP2023">
+        <i class="fab fa-twitter fa-fw"></i>Twitterアカウント
+      </a><br />
+      <a class="external" target="_blank" rel="noreferrer" title="2024年度マイリスト" href="https://www.nicovideo.jp/mylist/76187044">
         <i class="fas fa-folder fa-fw"></i>マイリスト
       </a><br />
     </p>
