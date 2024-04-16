@@ -2,7 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `読ム-１グランプリ2022 特設サイト`,
     author: `@Yomu_1GP2022`,
-    description: `合成音声によるコンプラ無用の漫才大会！`
+    description: `合成音声によるコンプラ無用の漫才大会！`,
+    siteUrl: "https://yomuonegp2022.netlify.app",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -41,25 +42,13 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
     {
-      resolve: `gatsby-plugin-scroll-reveal`,
-      options: {
-        threshold: 1,
-        once: true,
-        disavle: false,
-        selector: '[data-sal]',
-        animateClassName: 'sal-animate',
-        disabledClassName: 'sal-disabled',
-        rootMargin: '0% 50%',
-        enterEventName: 'sal:in',
-        exitEventName: 'sal:out',
-      }
-    },
-    {
       resolve: `gatsby-plugin-catch-links`,
       options: {
         excludePattern: /(excluded-link|external)/,
+      },
     },
-},
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
   ],
   pathPrefix: `/img`,
 }
